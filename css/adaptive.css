@@ -1,0 +1,156 @@
+
+@media (max-width: 900px) {
+
+    .header-container {
+        height: unset;
+        flex-direction: column;
+    }
+
+    .header-logo {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .header-nav {
+        margin-bottom: 20px;
+    }
+
+    .header-cart {
+        margin-bottom: 20px;
+    }
+
+    .slider .item img  {
+        display: none;
+    }
+
+    .arrival-head .all a {
+        display: none;
+    }
+
+    .arrival-head {
+        justify-content: center;
+    }
+  }
+
+  @media (max-width: 800px) {
+
+    .arrival-flexbox {
+        justify-content: center;
+    }
+
+    .ar-top {
+        display: none;
+    }
+
+  }
+
+  @media (max-width: 600px) {
+
+    .cat-container .cat-item:nth-child(1) {
+        width: 100%;
+    }
+    .cat-container .cat-item:nth-child(2) {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .cat-container .cat-item:nth-child(3) {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .cat-container .cat-item:nth-child(4) {
+        width: 100%;
+        margin-top: 30px;
+    }
+  }
+
+  @media (max-width: 650px) {
+
+    .header-menu {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .header-nav .header-menu a {
+        margin-right: unset;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+  }
+
+  @media (max-width: 400px) {
+  
+    .slider {
+        height: unset;
+        padding-bottom: 30px;
+    }
+
+    .slider .item {
+        display: flex;
+        justify-content: center;
+    }
+
+    .slider-sticker {
+        position: unset;
+    }
+
+    .slider-name {
+        position: unset;
+    }
+
+    .slider-text {
+        position: unset;
+        width: unset;
+        height: unset;
+    }
+
+    .slide-button {
+        position: unset;
+    }
+
+    .slider .item-info {
+        padding-left: unset;
+    }
+
+    .previous,.next {
+        display: none;
+    }
+
+  }
+
+  @media (max-width: 1200px) {
+
+    .footer-up {
+        display: unset;
+    }
+
+    .footer-up-left ul {
+        justify-content: center;
+    }
+
+    .footer-up-cop {
+        margin-left: unset;
+    }
+
+    .footer-up-right {
+        justify-content: center;
+    }
+
+    .footer-up {
+        justify-content: unset;
+    }
+
+    .footer-container .hr img {
+        display: none;
+    }
+
+    .footer-down {
+
+        justify-content: center;
+
+    }
+
+  }
+
+
+  
